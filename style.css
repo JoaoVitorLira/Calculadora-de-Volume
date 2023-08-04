@@ -44,12 +44,14 @@ h1{
 .formas{
     display: flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
 .caixa{
     margin-top: 40px;
+    margin-right: 25px;
+    margin-left: 25px;
     width: 215px;
     height: 300px;
     border: solid 2px black;
@@ -93,14 +95,3 @@ h2{
     box-shadow: 10px 10px 0 rgba(25, 25, 112, 0.132); 
 }
 
-.calc{
-    margin-top: 2%;
-    width: 120px;
-    height: 150px;
-}
-
-.calc2{
-    margin-top: 2%;
-    width: 150px;
-    height: 150px;
-}
